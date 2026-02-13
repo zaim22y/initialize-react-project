@@ -9,9 +9,7 @@ const handleSubmit = async (e) => {
 
     try {const response = await fetch('http://localhost:5000/api/form', formData)
         console.log("Form data submitted successfully:", formData);}
-catch (error) {console.error("Error submitting form data:", error); } }
-
-
+catch (error) {console.error("Error submitting form data:", error); } };
     return (
         <form onSubmit={handleSubmit}>
             <div>
