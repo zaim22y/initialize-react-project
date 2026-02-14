@@ -14,7 +14,7 @@ catch (error) {console.error("Error submitting form data:", error); } };
         <form onSubmit={handleSubmit}>
             <div>
                 <label>FirstName:</label>
-                <input type="text" id="name" name="name" />
+                <input type="text" id="firstName" name="firstName" />
             </div>
             <div>
                 <label>LastName:</label>
